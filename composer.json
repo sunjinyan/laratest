@@ -1,0 +1,25 @@
+{
+  "name": "sunjinyan/laratest",
+  "type": "library",
+  "description": "孙进研的测试composer",
+  "keywords": ["孙进研","进研"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sunjinyan",
+      "email": "13683234298@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "illuminate/support": "5.*",
+    "illuminate/events": "5.*",
+    "illuminate/config": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+    "Lara\\Laratest\\":"src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
